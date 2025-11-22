@@ -97,6 +97,7 @@ Copy `.env.sample` to `.env` and fill in the values.
 The project uses Tailwind CSS v4 with the new `@import "tailwindcss"` syntax in `index.css`.
 
 **Custom Theme**: The app includes a comprehensive custom color palette defined in `index.css`:
+
 - `text-*` - Text colors (50-950 shades)
 - `background-*` - Background colors (50-950 shades)
 - `primary-*` - Primary brand colors (50-950 shades)
@@ -117,6 +118,7 @@ The project uses a modern flat config ESLint setup (`eslint.config.js`) with:
 - Prettier integration for style consistency
 
 Key rules:
+
 - Import statements must be ordered by type with newlines between groups
 - React hooks rules are enforced as errors
 - TypeScript unused variables and explicit `any` are warnings
@@ -125,6 +127,7 @@ Key rules:
 ## TypeScript Configuration
 
 Uses project references pattern:
+
 - `tsconfig.json` - Root configuration with references to app and node configs
 - `tsconfig.app.json` - Application-specific config
 - `tsconfig.node.json` - Node/build tooling config (for Vite, PostCSS, etc.)
