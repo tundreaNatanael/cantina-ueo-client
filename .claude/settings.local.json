@@ -1,0 +1,7 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["supabase"],
+  "permissions": {
+    "allow": ["Bash(npm run lint)"]
+  }
+}
